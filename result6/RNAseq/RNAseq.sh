@@ -18,8 +18,9 @@ do
            -2 $output/fastp/${id}_filter_R2.fq.gz \
            -S $output/sam/${id}/${id}.sam
 
-    samtools view -@10 -bS $output/sam/${id}/${id}.sam > $output/FC/${id}_bowtie2.bam
+    samtools view -@10 -bS $output/sam/${id}/${id}.sam > $output/FC/${id}.bam
 
 done
 featureCounts -T 10 -a /home/liusai/RNA-sequence/index/GCF_000001405.40_GRCh38.p14_genomic.gtf -o read.count -p -t exon -g gene_id  *.bam
+
 
