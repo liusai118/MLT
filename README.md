@@ -1,6 +1,6 @@
-# PTD-DEP: Pathway and Transcriptome-Driven Drug Efficacy Predictor
+# AI-Driven Discovery of Dual Anti-Aging and Anti-Alzheimer’s Therapeutics via PROTAC Target Deconvolution of a Super-Enhancer-Regulated Axis
 
-> Dual-modality AI for prioritizing neuroprotective compounds in Alzheimer’s disease (AD) and aging.
+> AI Discovery of Anti-Aging and Anti-AD Therapeutics
 
 ---
 
