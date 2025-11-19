@@ -15,7 +15,7 @@ The lack of safe, durable therapeutics that act against both biological aging an
 ### Result 1. Construction of deep learning-based PTD-DEP model
 We develop PTD-DEP, a dual-modality AI that couples ML-based pathway screening with deep transcriptomic modeling to prioritize neuroprotective compounds for AD and aging. The pathway layer (six algorithms) attains mean ROC-AUC > 0.92, while the transcriptomic layer—aligning L1000 to brain-like cell types and combining a 64-D autoencoder with a two-layer GCN on SMILES—predicts expression profiles with Pearson = 0.968, enabling quantitative multi-target ranking. *(Fig. 1a–e)*
 
-#### P2T-DEP — Used for training PTD-DEP  
+#### PTD-DEP — Used for training PTD-DEP  
 Pipeline/scripts to train both ML and DL components.
 
 #### ML — The ML layer of PTD-DEP  
