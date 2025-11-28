@@ -29,7 +29,7 @@ library(ggExtra)
 library(Rtsne)
 result <- tpm 
 group <- c(rep("P7",3),rep("P12",3),rep("P12 + MLT",3))
-colnames <- paste0(group,"_",c(1:3,1:6,1:6))
+colnames <- paste0(group,"_",c(1:3,1:3,1:3))
 colnames(result) <- colnames
 tsne_result <- Rtsne(t(result), 
                      dims = 3,           
